@@ -1,0 +1,25 @@
+while True:
+    print("\n===== CALCULADORA =====")
+    print("Digite + para soma")
+    print("Digite - para subtração")
+    print("Digite sair para encerrar")
+
+    operacao = input("Escolha a operação: ")
+
+    if operacao == "sair":
+        print("Encerrando... valeu cria 👊")
+        break
+
+    num1 = int (input("Digite o primeiro número: "))
+    num2 = int (input("Digite o segundo número: "))
+
+    if operacao == "+":
+        resultado = number1 + number2
+        print("Resultado:", resultado)
+
+    elif operacao == "-":
+        resultado = number1 - number2
+        print("Resultado:", resultado)
+
+    else:
+        print("Operação inválida 🤨")
